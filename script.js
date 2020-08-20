@@ -1,5 +1,5 @@
 //$(".currentDay")
-let mfull = moment().format('MMMM Do YYYY, h:mm:ssa');
+let mfull = moment().format('dddd MMMM Do YYYY, h:mm:ssa');
 let htime = moment().format('ha');
 let mdate = moment().format('MMMM-Do-YYYY');
 
@@ -39,7 +39,7 @@ function timeUpate(){
     styleMe()
     // begin time interval to update time by the second, style on each update
     interval = setInterval(function(){
-        mfull = moment().format('MMMM Do YYYY, h:mm:ssa');
+        mfull = moment().format('dddd MMMM Do YYYY, h:mm:ssa');
         $("#currentDay").text(mfull)
         styleMe()
 }, 1000)
