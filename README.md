@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a day planner that allows you to keep track of important events during your busy day!
+A simple calendar app for scheduling important events during your busy day!
 
 ## Instructions
 ```
